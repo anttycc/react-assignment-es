@@ -1,0 +1,24 @@
+.input-field-section, .actual-form .error-message{
+  padding: 7px 0px;
+  color: red;
+}
+
+.input-field-section .warning-message{
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+
+.input-field-section .input-fields {
+flex-basis: 60%;
+height: 50px;
+padding: 16px 12px;
+border-radius: 4px;
+border: 1px solid #ced4da;
+background-color: #ffffff;
+font-size: 1.143em;
+}
+
+.input-fields::placeholder {
+  font-size: 0.8em;
+  color: fade-out(black);
+}

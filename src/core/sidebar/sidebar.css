@@ -1,0 +1,33 @@
+.app-sidenav-wrapper {
+  width: 20%;
+}
+
+.app-sidenav-item-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+.list-wrapper {
+  list-style: none;
+  color: #666;
+}
+
+.list-wrapper a {
+  text-decoration: none;
+  color: #666;
+}
+
+.list-wrapper a:hover,
+a:active {
+  color: #ed1e79;
+}
+
+.app-sidenav-item-icon img:active {
+  color: #ed1e79;
+}
+.active {
+  color: #ed1e79 !important;
+}
+
